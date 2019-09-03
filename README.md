@@ -7,7 +7,7 @@ This repository contains code with exercise and examples of basic topics on Mach
    2. What is Machine Learning?
   
 2. Introduction to Data Science
-   1.Introduction to Programming
+   1. Introduction to Programming
    2. Data management
    3. Visualization
 
