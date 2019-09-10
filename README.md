@@ -38,4 +38,4 @@ This repository contains code with exercise and examples of basic topics on Mach
    2. Linear discriminant analysis
    3. Kernel
    
-**_Note_**: This course is development in Spanish
+**_Note_**: This course is conducted in Spanish
