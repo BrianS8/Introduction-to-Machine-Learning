@@ -37,3 +37,5 @@ This repository contains code with exercise and examples of basic topics on Mach
    1. Principal component analysis
    2. Linear discriminant analysis
    3. Kernel
+   
+**_Note_**: This course is development in Spanish
