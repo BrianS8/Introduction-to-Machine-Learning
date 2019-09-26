@@ -65,6 +65,7 @@ df <- df[-c(19,25),]
 summary(df)
 unique(df$car.name)
 
+
 # Ordenar
 df <- arrange(df,car.name)
 # Eliminar duplicados

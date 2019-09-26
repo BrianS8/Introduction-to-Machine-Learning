@@ -38,3 +38,10 @@ head(df_melt)
 gdf = subset(df, Team == 'Boston Celtics' )
 gdf
 gdf = subset(df, Team == 'Boston Celtics' & Position == 'PG')
+
+
+
+
+
+
+
