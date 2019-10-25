@@ -1,4 +1,3 @@
-## Ejercicio 2
 
 library(dplyr)
 library(psych)
@@ -18,12 +17,11 @@ library(mvtnorm)
 
 options(scipen=999)
 
+data(state)
+datos <-  force(state.x77)
 
-# Importing the dataset
-dataset = read.csv('50_Startups.csv')
-# Encoding categorical data
-dataset$State = factor(dataset$State,
-                       levels = c('New York', 'California', 'Florida'),
-                       labels = c(1, 2, 3))
-dataset$State <- as.numeric(as.character(dataset$State))
+colnames(datos) <- c("habitantes","ingresos","analfabetismo", "esp_vida","asesinatos","universitarios", "heladas", "area")
+datos <- data.frame(datos)
+datos$densidad_pobl <- datos$habitantes * 1000 / datos$area
+
 
